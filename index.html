@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+          <title>My Company</title>  
+          <meta name="viewport" content="width=device-width,intial-scale=1.0">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+          <link rel="icon" href="images/favicon_waO_icon.ico" type="image/ico">
+        </head>
+        <body>
+            <div class ="navlinks">
+               <ul>
+                   <li><b>Home</b></li>
+                   <li><b>About</b></li>
+                   <li><b>Travels</b></li>
+                   <li><b>Contact Us</b></li>
+               </ul> 
+            </div>
+
+            <div class="imagebanner">
+                <h2><b>Places to Travel</b></h2>
+            </div>
+
+            <div class="introduction">
+                Here at "Places" you can find all the cool travel destinations to fill your travel dreams. 
+                Want to explore colorful cities?
+                Want to explore hidden treasures in beautiful countries?
+                Well then "Places" is your place!
+            </div>
+
+            <div class="travelplaces">
+                <div class="places">
+                    <img src="images/Tokyo.jpg" alt="Tokyo Pic">
+                    <p>Tokyo, Japan- Tokyo is an amazing destination for vaction and adventure. In this city you can experience breathtaking scenery and delicious eateries.  </p>
+                </div>
+
+                <div class="places">
+                    <img src="images/amsterdam 2.jpg" alt="Amsterdam pic">
+                    <p>Amsterdam, Netherlands- Amsterdam is a travel destiantion that is filled with historical destinations. In this city, you can spend hours walking the core canals and riding bikes admiring the cities historical archetecture.</p>
+                </div>
+
+                <div class="places">
+                    <img src="images/Dubai.jpg" alt="Dubai pic">
+                    <p>Dubai, UAE- Dubai is known for its luxurious shopping and modern architect culture. This city will make you fall in love with its powerful skyscrapers and lively streets.</p>
+                </div>
+            </div>
+        </body>
+    </html>
+   
+   <style>
+       body{
+           padding: 0;
+           margin: 0;
+           font-family:'Cormorant Garamond', se rif;
+       }
+       
+       ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li{
+            padding: 16px;
+            border-bottom: 1px solid white;
+        }
+
+        li:hover{
+            background-color: white;
+        }
+       .navlinks{
+            background-color: aquamarine;
+            color: black;
+            text-align: center;
+            font-size: 1.2 rem;
+
+        }
+        
+        .imagebanner{
+            background-image: url("images/Planes1.jpg");
+            padding: 100px 0;
+            color: black;
+        }
+
+    h2{
+        text-align: center;
+        color: black;
+        background-color: lightskyblue;
+    }
+    .introduction {
+        text-align: center;
+        color: black;
+        font-size:1.5rem;
+    }
+    img {
+        width:300px;
+        height:300px;
+    }
+    .travelplaces{
+        text-align: center;
+        margin: 32px;
+    }
+    @media screen and (min-width:700px){
+        ul{
+            text-align:right;      
+        }
+        li{
+            display: inline-block;
+            border-bottom: 0px
+        }
+        .places{
+            width:33%;
+            display:inline-block;
+            vertical-align: top;
+        }
+    }
+    </style>
+
+#game=places
+#ourgames=travelplaces
